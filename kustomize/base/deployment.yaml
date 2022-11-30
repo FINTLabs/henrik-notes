@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
         - name: henrik-notes
-          image: "ghcr.io/fintlabs/henrik-notes:sha-cd7ebdc"
+          image: "ghcr.io/fintlabs/henrik-notes:sha-5c2c2ef"
           imagePullPolicy: IfNotPresent
           env:
             - name: logging.level.no.fintlabs
@@ -25,7 +25,7 @@ spec:
           resources:
             limits:
               memory: 128Mi
-              cpu: 25m
+              cpu: 250m
             requests:
               memory: 128Mi
-              cpu: 25m
+              cpu: 250m

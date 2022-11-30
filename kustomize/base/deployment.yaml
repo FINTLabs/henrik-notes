@@ -13,10 +13,10 @@ spec:
     spec:
       containers:
         - name: henrik-notes
-          image: "ghcr.io/fintlabs/henrik-notes:sha-2284879"
+          image: "ghcr.io/fintlabs/henrik-notes:sha-cd7ebdc"
           imagePullPolicy: IfNotPresent
           env:
-            - name: logging.level.no.fintlabs.kurstest
+            - name: logging.level.no.fintlabs
               value: DEBUG
           ports:
             - name: http
@@ -24,8 +24,8 @@ spec:
               protocol: TCP
           resources:
             limits:
-              memory: 64Mi
+              memory: 128Mi
               cpu: 25m
             requests:
-              memory: 64Mi
+              memory: 128Mi
               cpu: 25m

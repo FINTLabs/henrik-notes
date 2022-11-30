@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
         - name: henrik-notes
-          image: "ghcr.io/hknots/henrik-notes:sha-7eafe5b"
+          image: "ghcr.io/fintlabs/henrik-notes:sha-2284879"
           imagePullPolicy: IfNotPresent
           env:
             - name: logging.level.no.fintlabs.kurstest
